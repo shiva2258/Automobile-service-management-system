@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Italianno', cursive; */
+    font-family: 'Vesper Libre', serif;
+    align-content: center;
+}
+body{
+    background-color:blanchedalmond;
+}
+.container{
+    max-width: 90%;
+    padding: 35px;
+    margin: auto; 
+    position: relative;   
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+nav a{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(14 7 67);
+    justify-content: center;
+    background-color: lightskyblue;
+    border: 2px solid crimson;
+    border-radius: 12px;
+    padding: 2px 15px;
+    margin: 39px;
+    outline: none;
+}
+nav a:hover{
+    background-color: crimson;
+    color:white;
+}
+.active{
+    background-color:darkorange;
+}
+.container header{
+    background-color: transparent;
+    border-radius: 10px;
+    color: #c78c8c;
+    background-size: cover;
+    padding: 5px;
+    width: auto;
+}
+.container h1{
+    text-align: center;
+    font-family: 'Italianno', cursive;
+    font-size: 100px;
+    color: orangered;
+    padding: 75px 15px;
+    font-weight: bolder;
+}
+.container h2{
+    color:darkred;
+}
+input{
+    display: block;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    width: 75%;
+    margin: 15px auto;
+    padding: 10px;
+    font-size: 18px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button-container{
+    text-align: center;
+    margin: 15px 345px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    color: black;
+    background:rgb(238, 183, 81);
+    font-weight: bold;
+    padding: 5px 15px;
+    font-size: 20px;
+    border:2px solid indigo;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    width: 350%;
+}
+button:hover{
+    /* background:greenyellow; */
+    background: indigo;
+    color:white;
+}
+.btn{
+    color: black;
+    background:darksalmon;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: purple;
+    color:white;
+    border: 2px solid white;
+}
+table{
+    font-size: 16px;
+    background: black;
+    color: bisque;
+    border:4px solid coral;
+    width: 80%;
+    margin-left:10%;
+}
+.container .marq{
+    background: beige;
+    color: cyan;
+}
